@@ -9,3 +9,4 @@ SELECT u.user_id, u.username, o.order_id
 FROM users u
 LEFT JOIN orders o
 ON u.user_id = o.user_id;
+
